@@ -1,9 +1,7 @@
-# <b>Disciplina de Programação de Computadores</b>
+# Disciplina de Programação de Computadores
 
-Espaço dedicado aos projetos desenvolvidos ao longo da disciplina de Programação de Computadores.
+Espaço dedicado aos meus projetos desenvolvidos ao longo da disciplina de Programação de Computadores.
 
-Semestre: 2021/1 - Ensino Remoto Emergencial
-
-Professor: Marilton Sanchonete de Aguiar
-
+Semestre: 2021/1 - Ensino Remoto Emergencial</br>
+Professor: Marilton Sanchonete de Aguiar</br>
 CDTec - Universidade Federal de Pelotas
