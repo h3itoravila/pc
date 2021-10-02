@@ -1,4 +1,4 @@
-# Disciplina de Programação de Computadores
+# Programação de Computadores
 
 Espaço dedicado aos meus projetos desenvolvidos ao longo da disciplina de Programação de Computadores.
 
