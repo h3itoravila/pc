@@ -10,3 +10,5 @@ O algoritmo é bem simples e faz a análise de equações do segundo grau de for
 
 Meu maior desafio foi quanto aos parâmetros e valores entre uma função a outra.</br>
 <b>Espero que esse algoritmo seja útil para você de alguma forma!</b> :)
+
+Observação: O algoritmo faz uso da biblioteca stdlib.h, que faz uso das funções nativas do sistema operacional e foi desenvolvido para ambientes Linux/Unix. Se você está usando o Windows, está disponível uma versão alternativa desde aplicativo aqui mesmo neste repositório.
