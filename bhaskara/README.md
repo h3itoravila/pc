@@ -7,6 +7,7 @@ O algoritmo é bem simples e faz a análise de equações do segundo grau de for
 - Formato da parábola</br>
 - Cálculo do valor de Delta</br>
 - Raízes (se forem reais)</br>
+- Coordenadas do vértice (caso contrário)</br>
 
 Meu maior desafio foi quanto aos parâmetros e valores entre uma função a outra.</br>
 <b>Espero que esse algoritmo seja útil para você de alguma forma!</b> :)
