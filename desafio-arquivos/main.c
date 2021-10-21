@@ -4,7 +4,6 @@ Boa sorte! */
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
-#define TAM 255
 
 int main(void)
 {
@@ -14,7 +13,6 @@ int main(void)
 	char nomeTxt[] = ".txt";
 	char c;
 	FILE *arquivo;
-	int i;
 	arquivo = fopen(nomeArquivo, "r");
 	for (;;)
 	{
@@ -25,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-			fgets(nomeArquivo, TAM, arquivo);
+			fgets(nomeArquivo, 256, arquivo);
 			strcat(nomeArquivo, nomeTxt);
 			fclose(arquivo);
 			arquivo = fopen(nomeArquivo, "r");
