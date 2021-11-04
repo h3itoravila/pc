@@ -19,6 +19,7 @@ void exibirMenu(void) {
   printf("7: Ajuda\n");
   printf("8: Limpar tela\n");
 	printf("9: Sair\n");
+  printf("10: Limpar disco\n");
   printf("\n> ");
   // Função void não precisa de retorno
 }
@@ -213,4 +214,13 @@ void ajuda(void) {
 	}
   // Fechando o arquivo
 	fclose(arquivo);
+}
+
+// Função para esvaziar a lista de clientes no disco
+void limparDisco(void) {
+  FILE *arquivo;
+  // O parâmetro "w" permite subsituir o conteúdo do arquivo
+  arquivo = fopen("clientes.txt", "w");
+  fprintf(arquivo, "");
+  fclose(arquivo);
 }
