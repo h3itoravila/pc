@@ -20,3 +20,4 @@ void remova(char nome[50], celula *ini);
 void salvar(celula *ini);
 void imprimirDisco(void);
 void ajuda(void);
+void limparDisco(void);
