@@ -14,8 +14,8 @@ int main()
   // Exibição de mensagem de boas-vindas
   printf("Academia Flor do Dia | Sua dor, nossa alegria!\n");
   
-  // Criando dois ponteiros (vetores) locais do tipo "celula"
-  celula *lista, *pos;
+  // Criando ponteiro (vetor) local do tipo "celula"
+  celula *pos;
 
   // Outras variáveis locais da função main
   char tempNome[100], tempIdade[10], tempTelefone[20];
@@ -100,7 +100,19 @@ int main()
         exit(0);
 
       case 10:
+        // Comando para limpar o arquivo no disco
         limparDisco();
+        break;
+      
+      case 11:
+        // Comando para limpar a lista encadeada
+        free(lista);
+        lista = cria();
+        break;
+      
+      case 12:
+        // Comando para importar para a RAM o que está no disco
+        importarDisco(lista);
         break;
       }
   }
