@@ -98,6 +98,10 @@ int main()
       case 9:
         // Comando de saída retornando "0" para o sistema
         exit(0);
+
+      case 10:
+        limparDisco();
+        break;
       }
   }
   // return 0; em comentário pois o algoritmo não tem como avançar da linha 104
