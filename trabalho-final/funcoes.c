@@ -10,16 +10,18 @@
 void exibirMenu(void) {
   // Realiza apenas a impressão do menu na tela
   printf("\n");
-	printf("1: Novo\n");
-	printf("2: Listar\n");
-	printf("3: Buscar\n");
-	printf("4: Excluir\n");
-	printf("5: Salvar em disco\n");
+	printf("1: Novo cadastro    (RAM)\n");
+	printf("2: Listar cadastros (RAM)\n");
+	printf("3: Buscar pelo nome (RAM)\n");
+	printf("4: Excluir cadastro (RAM)\n");
+	printf("5: Salvar no disco\n");
 	printf("6: Listar do disco\n");
-  printf("7: Ajuda\n");
+  printf("7: Ajuda do programa\n");
   printf("8: Limpar tela\n");
-	printf("9: Sair\n");
-  printf("10: Limpar disco\n");
+	printf("9: Sair do programa\n");
+  printf("10: Limpar cadastros\n");
+  printf("11: Limpar cadastros  (RAM)\n");
+  printf("12: Importar do disco (RAM)\n");
   printf("\n> ");
   // Função void não precisa de retorno
 }
@@ -223,4 +225,29 @@ void limparDisco(void) {
   arquivo = fopen("clientes.txt", "w");
   fprintf(arquivo, "");
   fclose(arquivo);
+}
+
+// Essa função converte o conteúdo do arquivo em nós de lista encadeada
+void importarDisco(celula *ini) {
+
+  // Ponteiro local para o arquivo
+  FILE *arquivo;
+  arquivo = fopen("clientes.txt", "r");
+
+  // Variáveis locais para captura de informações  
+  char nome[100], idade[10], telefone[20];
+
+  // Enquanto não chegar ao fim do arquivo
+  while (!feof(arquivo)) {
+    
+    // Obtendo strings
+    fgets(nome, 100, arquivo);
+    fgets(idade, 10, arquivo);
+    fgets(telefone, 20, arquivo);
+    
+    // Este comando previne que o primeiro nó seja duplicado
+    if (!feof(arquivo))
+      inserir(nome, idade, telefone, lista);
+  }
+  printf("Importado.\n");
 }
