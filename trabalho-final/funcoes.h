@@ -1,6 +1,5 @@
 // Definindo uma struct
-struct cel
-{
+struct cel {
   char nome[50];
   char idade[4];
   char telefone[12];
