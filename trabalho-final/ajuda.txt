@@ -1,0 +1,19 @@
+Este programa tem como objetivo o cadastramento massivo de clientes.
+
+1 - Cadastrar cliente: Inclui um novo cadastro no banco de dados na RAM.
+
+2 - Listar cadastros: Imprime na tela todos os cadastros existentes na RAM.
+
+3 - Buscar cadastro: Verifica se o nome informado está presente na RAM.
+
+4 - Excluir cliente: Exclui um cliente cadastrado na RAM.
+
+5 - Salvar cadastros no disco: Exporta para o disco os cadastros da RAM.
+
+6 - Listar cadastros do disco: Imprime na tela, de forma ordenada, os cadastros do disco.
+
+7 - Ajuda: Exibe esta mensagem de ajuda na tela e retorna para o menu.
+
+8 - Limpar tela: Redefine a exibição preservando os dados da RAM e retorna para o menu.
+
+9 - Sair: Encerra o programa.
