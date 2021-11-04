@@ -9,6 +9,9 @@ struct cel {
 // Definindo a struct cel como um tipo de variável de nome "celula"
 typedef struct cel celula;
 
+// Criando ponteiro (vetor) global para uso das funções
+celula *lista;
+
 // Protótipo das funções presentes em "funcoes.c"
 celula *cria(void);
 void exibirMenu(void);
@@ -20,3 +23,4 @@ void salvar(celula *ini);
 void imprimirDisco(void);
 void ajuda(void);
 void limparDisco(void);
+void importarDisco(celula *ini);
