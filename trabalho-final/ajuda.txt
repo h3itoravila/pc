@@ -1,19 +1,23 @@
-Este programa tem como objetivo o cadastramento massivo de clientes.
+1 - Novo cadastro: Essa função permite ao usuário cadastrar um novo usuário inicialmente na memória RAM.
 
-1 - Novo: Inclui um novo cadastro no banco de dados na RAM.
+2 - Listar cadastros: Exibe na tela todos os cadastros disponíveis na memória randômica.
 
-2 - Listar: Imprime na tela todos os cadastros existentes na RAM.
+3 - Buscar pelo nome: Solicita ao usuário a digitação do nome de um cliente e verifica se o mesmo encontra-se na memória RAM.
 
-3 - Buscar: Verifica se o nome informado está presente na RAM.
+4 - Excluir cadastro: Realiza a exclusão do cadastro de um usuário disponível na memória randômica.
 
-4 - Excluir: Exclui um cliente cadastrado na RAM.
+5 - Salvar no disco: Faz a escrita de todos os usuários carregados na memória RAM para o disco rígido.
 
-5 - Salvar no disco: Exporta para o disco os cadastros da RAM.
+6 - Listar do disco: Exibe na tela todos os usuários armazenados no disco.
 
-6 - Listar do disco: Imprime na tela, de forma ordenada, os cadastros do disco.
+7 - Ajuda do programa: Mostra este arquivo de ajuda na tela e retorna para o menu principal.
 
-7 - Ajuda: Exibe esta mensagem de ajuda na tela e retorna para o menu.
+8 - Limpar tela: Redefine a exibição do programa e retorna para o menu principal sem alterar os dados carregados.
 
-8 - Limpar tela: Redefine a exibição preservando os dados da RAM e retorna para o menu.
+9 - Sair do programa: Realiza a saída do programa informando para o sistema operacional a execução sem erros.
 
-9 - Sair: Encerra o programa.
+10 - Limpar cadastros: Substitui todos os cadastros armazenados no disco por um novo arquivo em branco.
+
+11 - Limpar cadastros RAM: Libera da memória randômica todos os cadastros cadastrados previamente.
+
+12 - Importar do disco: Carrega na memória randômica todos os cadastros presentes no disco rígido.
