@@ -1,4 +1,4 @@
-# Trabalho Final
+# Trabalho Final (em desenvolvimento)
 
 Este é o trabalho final da disciplina de Programação de Computadores.</br>
 O algoritmo foi desenvolvido por mim, Heitor Avila, e pelos colegas Cecília Botelho e Eduardo Schwantz.</br>
