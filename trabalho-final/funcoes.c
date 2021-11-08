@@ -247,7 +247,7 @@ void importarDisco(celula *ini) {
     
     // Este comando previne que o primeiro nó seja duplicado
     if (!feof(arquivo))
-      inserir(nome, idade, telefone, lista);
+      inserir(nome, idade, telefone, ini);
   }
   printf("Importado.\n");
 }
