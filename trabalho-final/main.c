@@ -9,13 +9,9 @@ Heitor Avila, Cecilia Botelho, Eduardo Schwantz */
 // Bibliotecas Próprias
 #include "funcoes.h"
 
-int main()
-{
+int main() {
   // Exibição de mensagem de boas-vindas
   printf("Academia Flor do Dia | Sua dor, nossa alegria!\n");
-  
-  // Criando ponteiro (vetor) local do tipo "celula"
-  celula *pos;
 
   // Outras variáveis locais da função main
   char tempNome[100], tempIdade[10], tempTelefone[20];
