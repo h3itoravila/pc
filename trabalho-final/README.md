@@ -1,7 +1,7 @@
-# Trabalho Final (em desenvolvimento)
+# Trabalho Final
 
 Este é o trabalho final da disciplina de Programação de Computadores.</br>
-O algoritmo foi desenvolvido por mim, Heitor Avila, e pelos colegas Cecília Botelho e Eduardo Schwantz.</br>
+O algoritmo foi desenvolvido por mim e pelos colegas Cecília Botelho e Eduardo Schwantz.</br>
 
 Conforme especificado, o projeto final precisa conter:</br>
 1. Listas encadeadas (1/3 da nota)
@@ -9,4 +9,4 @@ Conforme especificado, o projeto final precisa conter:</br>
 3. Arquivos (1/3 da nota)
 
 Mais informações sobre como utilizar você pode encontrar no arquivo de ajuda.</br>
-Espero que curta e que o código lhe seja útil. :)
+Esperamos que goste e que o código lhe seja útil. :)
