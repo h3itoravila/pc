@@ -26,13 +26,11 @@ int main() {
     exibirMenu();
     scanf("%d", &opcao);
     printf("\n");
-
     // Responsável por consumir a quebra de linha no buffer
     getchar();
-
     // Switch case usado pra definir as condições do menu
     switch (opcao) {
-
+      
       case 1:
         // Obtendo e armazenando informações em variáveis locais
         printf("Nome: ");
@@ -41,10 +39,8 @@ int main() {
         fgets(tempIdade, 10, stdin);
         printf("Telefone: ");
         fgets(tempTelefone, 20, stdin);
-
         // Executando a função "inserir" com as variáveis como parâmetro
         inserir(tempNome, tempIdade, tempTelefone, lista);
-
         // Comando de saída do switch
         break;
 
@@ -57,9 +53,7 @@ int main() {
         // Buscar cliente na RAM
         printf("Digite o nome: ");
         fgets(tempNome, 100, stdin);
-
         busca(tempNome, lista);
-
         break;
       
       case 4:
@@ -112,5 +106,5 @@ int main() {
         break;
       }
   }
-  // return 0; em comentário pois o algoritmo não tem como avançar da linha 104
+  // return 0; em comentário pois o algoritmo não tem como avançar da linha 112 por causa das condições definidas na estrutura de repetição anterior
 }
