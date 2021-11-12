@@ -1,5 +1,3 @@
-# Trabalho Final
-
 Este é o trabalho final da disciplina de Programação de Computadores.</br>
 O algoritmo foi desenvolvido por mim e pelos colegas Cecília Botelho e Eduardo Schwantz.</br>
 
