@@ -6,8 +6,4 @@ Semestre: 2021/1 - Ensino Remoto Emergencial</br>
 Professor: Marilton Sanchotene de Aguiar</br>
 CDTec - Universidade Federal de Pelotas
 
-<b>Não deixe de conferir meus outros repositórios!</b></br>
-Algoritmos e Programação: https://github.com/h3itoravila/aep</br>
-Programação de Computadores: https://github.com/h3itoravila/pc</br>
-Técnicas Digitais: https://github.com/h3itoravila/td</br>
-Laboratório de Computação: https://github.com/h3itoravila/labc/</br>
+<b>Não deixe de conferir meus outros repositórios!</b>
